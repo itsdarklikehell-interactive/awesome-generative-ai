@@ -15,6 +15,8 @@ Contributions to this list are welcome. Before submitting your suggestions, plea
 - [Image](#image)
 - [Video](#video)
 - [Audio](#audio)
+- [Datasets](#datasets)
+- [Embeddings](#embeddings)
 - [Other](#other)
 - [Learning resources](#learning-resources)
 - [More lists](#more-lists)
@@ -359,6 +361,7 @@ Contributions to this list are welcome. Before submitting your suggestions, plea
 
 - [Civitai](https://civitai.com/) - Community driven AI model sharing tool.
 - [Stable Diffusion Models](https://rentry.org/sdmodels) - A comprehensive list of Stable Diffusion checkpoints on rentry.org.
+- [Hugging Face Models](https://huggingface.co/models) - Open model hub hosting text, image, audio and multimodal models for inference and fine-tuning.
 
 ### Stable Diffusion resources
 
@@ -426,6 +429,42 @@ Contributions to this list are welcome. Before submitting your suggestions, plea
 - [AIVA](https://www.aiva.ai/) - AI-based music generation assistant. Choose from 250+ styles.
 - [Suno AI](https://suno.com/) - Anyone can make great music. No instrument needed, just imagination. From your mind to music.
 - [Udio](https://www.udio.com/) - Discover, create, and share music with the world.
+
+## Datasets
+
+### Text datasets
+
+- [Hugging Face Datasets](https://huggingface.co/datasets) - Community hub for open datasets across text, image, audio and multimodal tasks. #opensource
+- [The Pile](https://github.com/EleutherAI/the-pile) - An 825 GiB diverse, open source language modelling data set combining 22 smaller datasets. #opensource
+- [RedPajama-Data](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) - A 1 trillion token open dataset for training large language models, by Together AI. #opensource
+- [Dolma](https://huggingface.co/datasets/allenai/dolma) - A 3 trillion token open corpus by the Allen Institute for AI, built for language model research. #opensource
+- [C4](https://huggingface.co/datasets/allenai/c4) - The Colossal Clean Crawled Corpus, a cleaned derivative of Common Crawl for language modeling. #opensource
+
+### Image datasets
+
+- [ImageNet](https://image-net.org/) - Image database organized according to the WordNet hierarchy, widely used for image classification research.
+- [Open Images](https://github.com/openimages/dataset) - A dataset of roughly 9 million images annotated with labels spanning over 6000 categories, by Google. #opensource
+- [COCO](https://cocodataset.org/) - Common Objects in Context, a large-scale object detection, segmentation and captioning dataset.
+
+### Audio datasets
+
+- [Mozilla Common Voice](https://commonvoice.mozilla.org/) - A crowdsourced multilingual voice dataset for training speech recognition and synthesis models. #opensource
+
+### Multimodal datasets
+
+- [LAION-5B](https://laion.ai/blog/laion-5b) - 5.85 billion CLIP-filtered image-text pairs with embeddings and safety scores, among the largest open image-text datasets. #opensource
+
+## Embeddings
+
+- [BGE Embeddings](https://huggingface.co/BAAI/bge-large-en-v1.5) - BAAI's general-purpose text embedding models, strong performers on the MTEB leaderboard. #opensource
+- [E5](https://huggingface.co/intfloat/e5-large-v2) - Microsoft's multilingual text embedding models trained with contrastive learning. #opensource
+- [GTE](https://huggingface.co/thenlper/gte-large) - Alibaba's general-purpose text embedding models with strong retrieval performance. #opensource
+- [Nomic Embed](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5) - An open text embedding model with an 8192-token context window, by Nomic AI. #opensource
+- [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) - A fast, lightweight sentence embedding model from the SentenceTransformers ecosystem. #opensource
+- [Jina Embeddings](https://huggingface.co/jinaai/jina-embeddings-v2-base-en) - Jina AI's long-context text embedding models supporting up to 8192 tokens. #opensource
+- [INSTRUCTOR](https://huggingface.co/hkunlp/instructor-large) - An instruction-finetuned embedding model that generates task- and domain-specific embeddings from a prompt. #opensource
+- [Cohere Embed](https://cohere.com/embed) - Cohere's semantic representation models for text and images, with multilingual support.
+- [Voyage Embeddings](https://www.voyageai.com/) - Voyage AI's high-precision embedding and reranking models for retrieval and RAG.
 
 ## Other
 
